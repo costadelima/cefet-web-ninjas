@@ -1,0 +1,70 @@
+
+.img{
+  border: 200px solid limegreen;
+}
+
+h1, h2 {
+  margin-top: 28px;
+  font-family: monospace;
+  font-weight: normal;
+  color: #4fff03;
+}
+
+body {
+  /* imagem de fundo para a página */
+  /*background-image: url(../imagens/fundo.png);*/
+  background-color: #e1d1ea;
+  /* faz o conteúdo da página começar a 10%
+    da largura lateralmente */
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#logotipo{
+  width: 200px;
+}
+
+img, iframe:not(logotipo){
+  display: block;
+  margin: auto;
+}
+
+/*a:{
+  color: inherit;
+  text-decoration-color: initial;
+}*/
+
+a:visited {
+color:red;
+text-decoration:none;
+}
+
+a:hover {
+  color:#000000;
+  text-decoration:none;
+}
+a:active {
+  color:green;
+  text-decoration:underline;
+  background-color:#000000;
+}
+
+a[href^="http"] {
+  float: left;
+  background-image: url("../img/globo.png");
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.nota{
+  opacity: 0.5;
+}
+
+.passo{
+  background-color: red;
+  font-size: 50px;
+  color: green;
+}
+
+.nome-passo{
+  font-size: 30px;
+}
